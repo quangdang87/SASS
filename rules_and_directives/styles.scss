@@ -1,0 +1,52 @@
+$myBackground-color1: #333;
+
+$myBackground-color2: #ddd;
+
+$myBackground-color3: #ff69b4;
+
+$myColor1: #ffffff;
+
+$myColor2: #000000;
+
+$myColor3: #ffffff;
+
+$large-screen: 1000px;
+
+$med-screen: 700px;
+
+$small-screen: 400px;
+
+$myHeight: 300px;
+
+.media {
+}
+
+.topnav {
+  background-color: $myBackground-color1;
+
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+
+  color: $myColor1;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: $myBackground-color2;
+
+  color: $myColor2;
+}
+
+.topnav a.active {
+  background-color: $myBackground-color3;
+
+  color: $myColor3;
+}
